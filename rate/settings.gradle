@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "rate"
+rootProject.name = "rates"
 include ':app'

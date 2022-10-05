@@ -3,17 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/tehnicals/rates/Rates-value/rate/app/src/main/res/layout/fragment_root.xml" value="0.25" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/drawable/ic_cash.xml" value="0.115" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/drawable/ic_noncash.xml" value="0.115" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/font/font.xml" value="0.21296296296296297" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/layout/fragment_cash.xml" value="0.176" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/layout/fragment_non_cash.xml" value="0.25" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/layout/fragment_root.xml" value="0.25" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/layout/fragment_splash.xml" value="0.264" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/layout/my_row.xml" value="0.176" />
-        <entry key="..\:/tehnicals/rates/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.115" />
+        <entry key="..\:/tehnicals/rates2/app/src/main/res/font/font.xml" value="0.21296296296296297" />
+        <entry key="..\:/tehnicals/rates2/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/tehnicals/rates2/app/src/main/res/layout/fragment_cbr.xml" value="0.25" />
+        <entry key="..\:/tehnicals/rates2/app/src/main/res/layout/fragment_main.xml" value="0.176" />
+        <entry key="..\:/tehnicals/rates2/app/src/main/res/layout/fragment_privat.xml" value="0.25" />
+        <entry key="..\:/tehnicals/rates2/app/src/main/res/layout/fragment_root.xml" value="0.264" />
+        <entry key="..\:/tehnicals/rates2/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
+        <entry key="..\:/tehnicals/rates2/app/src/main/res/layout/fragment_splesh.xml" value="0.25" />
+        <entry key="..\:/tehnicals/rates2/app/src/main/res/layout/my_row.xml" value="0.264" />
       </map>
     </option>
   </component>

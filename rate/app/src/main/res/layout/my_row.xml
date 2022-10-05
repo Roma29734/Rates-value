@@ -13,50 +13,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="47dp"
-        android:textColor="@color/white"
-        android:fontFamily="@font/montserrat_medium"
+        android:textColor="@color/SecondBlue"
         tools:text="USD"
+        android:fontFamily="@font/montserrat_medium"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/nameFirstCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/MaimRed"
+        android:textSize="25sp"
+        android:fontFamily="@font/montserrat_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nameCurrency"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="USD" />
+
+    <TextView
         android:id="@+id/buyCurrency"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="25dp"
+        android:layout_marginEnd="70dp"
         android:fontFamily="@font/montserrat_bold"
-        android:textColor="@color/SecondBlue"
-        android:textSize="20sp"
         android:maxLength="5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/saleCurrency"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="35" />
-
-    <TextView
-        android:id="@+id/saleCurrency"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="47dp"
-        android:fontFamily="@font/montserrat_bold"
-        android:textColor="@color/MaimRed"
-        android:textSize="20sp"
-        android:maxLength="5"
+        android:textColor="@color/white"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="52" />
+        tools:text="35" />
 
     <View
         android:id="@+id/view"
         android:layout_width="2dp"
-        android:layout_height="30dp"
-        android:background="@color/white"
-        android:rotation="25"
+        android:layout_height="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/saleCurrency"
-        app:layout_constraintStart_toEndOf="@+id/buyCurrency"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/nameFirstCurrency"
+        app:layout_constraintStart_toEndOf="@+id/nameCurrency"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

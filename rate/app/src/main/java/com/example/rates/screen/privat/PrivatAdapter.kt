@@ -25,8 +25,8 @@ class PrivatAdapter: RecyclerView.Adapter<PrivatAdapter.PrivatViewHolder>() {
     override fun onBindViewHolder(holder: PrivatViewHolder, position: Int) {
         val list = listPrivat[position]
 
-        holder.itemView.nameFirstCurrency.text = list.ccy
-        holder.itemView.nameCurrency.text = list.base_ccy
+        holder.itemView.nameFirstCurrency.text = list.base_ccy
+        holder.itemView.nameCurrency.text = list.ccy
         holder.itemView.buyCurrency.text = list.buy
 
         Log.d("Responce", "Установил значения в адаптере")

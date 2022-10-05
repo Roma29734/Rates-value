@@ -6,7 +6,7 @@
 + Данные беруться с приват банка
 
 ---
-[Скачать](https://t.me/apkPublicPrograms/7)
+[Скачать](https://t.me/apkPublicPrograms/9)
 
 ---
 
@@ -16,6 +16,6 @@ This is an application for viewing the exchange rate.
 + The application is written in Kotlin
 + Data is taken from a private bank
 ---
-[Donwload](https://t.me/apkPublicPrograms/7)
+[Donwload](https://t.me/apkPublicPrograms/9)
 
 ---

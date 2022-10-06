@@ -5,6 +5,6 @@ import retrofit2.Response
 import retrofit2.http.GET
 
 interface PrivatApi {
-    @GET("p24api/pubinfo?json&exchange&coursid=5")
+    @GET("p24api/pubinfo?exchange&json&coursid=11")
     suspend fun getPrivateCourse() : Response<Privat>
 }
